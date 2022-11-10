@@ -2,11 +2,14 @@
   <h1>Data Science Learning Paths</h1>
 
   <p><b>Basic and advanced data science courses</b></p>
+ <a href="https://github.com/point8/data-science-learning-paths/blob/main/notebooks/data-science-learning-paths.ipynb"><b>Table of Contents</b></a>
 </div>
 
 
 
 ![](notebooks/data-science-learning-paths-concept.png)
+
+
 
 
 ## Credits
