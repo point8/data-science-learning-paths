@@ -2,6 +2,8 @@
 
 Basic and advanced data science course material developed by the team @point8 and @clstaudt
 
+![](notebooks/data-science-learning-paths-concept.png)
+
 ## License
 
 Copyright © 2018-2022 [Point 8 GmbH](https://point-8.de)
