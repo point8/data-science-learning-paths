@@ -1,6 +1,13 @@
-# Data Science Learning Paths
+<div align="center">
+  <h1>Data Science Learning Paths</h1>
 
-Basic and advanced data science course material developed by the team @point8 and @clstaudt
+  <p><b>Basic and advanced data science courses</b></p>
+</div>
+
+
+## Credits
+
+Course material developed by the team [@point8](https://github.com/point8) and [@clstaudt](https://github.com/clstaudt).
 
 ![](notebooks/data-science-learning-paths-concept.png)
 
