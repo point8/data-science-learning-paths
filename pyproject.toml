@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "data-science-learning-paths"
+version = "0.2.0"
+description = "Basic and advanced data science course material"
+repository = "https://github.com/point8/data-science-learning-paths"
+authors = []
+license = "Attribution-NonCommercial-ShareAlike 4.0 International"
+
+packages = [
+    { include = "data_science_learning_paths", from = "library" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+bs4 = "^0.0.1"
+findspark = "^2.0.1"
+holidays = "^0.16"
+jupyter = "^1.0.0"
+jupyterlab = "^3.5.0"
+jupyterthemes = "^0.20.0"
+LunarCalendar = "^0.0.9"
+matplotlib = "^3.6.2"
+msgpack = "^1.0.4"
+nbstripout = "^0.6.1"
+nltk = "^3.7"
+opencv-python = "^4.6.0"
+openpyxl = "^3.0.10"
+pandas = "^1.5.1"
+pandas-datareader = "^0.10.0"
+Pillow = "^9.3.0"
+plotly = "^5.11.0"
+python-dateutil = "^2.8.2"
+scikit-learn = "^1.1.3"
+scikit-surprise = "^1.1.3"
+seaborn = "^0.12.1"
+shap = "^0.41.0"
+statsmodels = "^0.13.5"
+tqdm = "^4.64.1"
+tsfresh = "^0.19.0"
+yellowbrick = "^1.5"
+tweepy = "^4.12.1"
+networkx = "^2.8.8"
+sktime = "^0.14.0"
+tensorflow = ">2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,1 @@
+This folder is for Spark scripts that will be generated from notebooks.

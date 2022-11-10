@@ -1,0 +1,22 @@
+column, description
+id, a notation for a house
+date, house was sold
+price, is prediction target
+bedroomsNumber, of Bedrooms/House
+bathroomsNumber, of bathrooms/bedrooms
+sqft_livingsquare, footage of the home
+sqft_lotsquare, footage of the lot
+floorsTotal, floors (levels) in house
+waterfrontHouse, which has a view to a waterfront
+view, Has been viewed
+condition, How good the condition is ( Overall )
+gradeoverall, grade given to the housing unit based on King County grading system
+sqft_abovesquare, footage of house apart from basement
+sqft_basementsquare, footage of the basement
+yr_builtBuilt, Year
+yr_renovatedYear, when house was renovated
+zipcodezip,
+latLatitude, coordinate
+longLongitude, coordinate
+sqft_living15Living, room area in 2015(implies-- some renovations) This might or might not have affected the lotsize area
+sqft_lot15lotSize, area in 2015(implies-- some renovations)

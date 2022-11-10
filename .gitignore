@@ -1,0 +1,11 @@
+.DS_Store
+.ipynb_checkpoints
+*.egg*
+__pycache__
+*.pkl
+*.pickle
+
+notebooks/dl/Graph
+notebooks/spark/scripts/
+notebooks/exercises/scripts/
+TensorBoard/

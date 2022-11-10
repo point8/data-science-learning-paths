@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>https://www.ncdc.noaa.gov/cag/national/time-series/110/tavg/all/1/1895-2019?base_prd=true&amp;firstbaseyear=1901&amp;lastbaseyear=2000&amp;trend=true&amp;trend_base=10&amp;firsttrendyear=1895&amp;lasttrendyear=2019&amp;filter=true&amp;filterType=binomial</string>
+</dict>
+</plist>
