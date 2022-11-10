@@ -5,11 +5,13 @@
 </div>
 
 
+
+![](notebooks/data-science-learning-paths-concept.png)
+
+
 ## Credits
 
 Course material developed by the team [@point8](https://github.com/point8) and [@clstaudt](https://github.com/clstaudt).
-
-![](notebooks/data-science-learning-paths-concept.png)
 
 ## License
 
