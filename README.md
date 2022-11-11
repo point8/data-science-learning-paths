@@ -17,18 +17,9 @@
 _(Not everything is working using Binder. We are working on it.)_
 
 
-## Credits
+## Credits & Contributions
 
 Course material developed by the team [@point8](https://github.com/point8) and [@clstaudt](https://github.com/clstaudt).
-
-## License
-
-Copyright © 2018-2022 [Point 8 GmbH](https://point-8.de)
-
-The training material in this repository is licensed under a Creative Commons BY-NC-SA 4.0 license. See [LICENSE](LICENSE) file for more information.
-
-
-## Contributing
 
 Contributions welcome! Have a look at [CONTRIBUTING.md](CONTRIBUTING.md)
 
@@ -66,3 +57,9 @@ As the leading system is poetry, please update the requirements file according t
 ## Work with us
 
 If you or your team wants to get an introduction into data science and machine learning or a deep dive into a special topic, we are there to support you! Just contact us by [email](mailto:trainings@point-8.de) and we will work out a fitting proposal.
+
+## License
+
+Copyright © 2018-2022 [Point 8 GmbH](https://point-8.de)
+
+The training material in this repository is licensed under a Creative Commons BY-NC-SA 4.0 license. See [LICENSE](LICENSE) file for more information.
