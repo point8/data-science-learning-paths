@@ -10,6 +10,11 @@
 ![](notebooks/data-science-learning-paths-concept.png)
 
 
+## Have a look
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/point8/data-science-learning-paths/HEAD)
+
+_(Not everything is working using Binder. We are working on it.)_
 
 
 ## Credits
