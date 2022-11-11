@@ -9,12 +9,12 @@
 
 Individual authors will follow in alphabetical order:
 
-* Christian Staudt <<cstaudt@point-8.de>> (**main developer**)
-* Christophe Cauet <<ccauet@point-8.de>>
-* Julian von der Ecken <<jvonderecken@point-8.de>> (**main developer**)
-* Philipp Grund <<pgrund@point-8.de>>
-* Tobias Brambach <<tbrambach@point-8.de>>
-* Vanessa Müller <<vmueller@point-8.de>>
+* [@clstaudt](https://github.com/clstaudt) (**main developer**)
+* [@ccauet](https://github.com/ccauet)
+* [@jvonderecken](https://github.com/jvonderecken) (**main developer**)
+* [@PG-P8](https://github.com/PG-P8)
+* [@tbrambach](https://github.com/tbrambach)
+* [@Vanessa-Mueller](https://github.com/Vanessa-Mueller)
 
 _Please add yourself to the list after contributing something._
 
