@@ -14,7 +14,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/point8/data-science-learning-paths/HEAD)
 
-_(Not everything is working using Binder. We are working on it.)_
+_(Not everything is working using Binder, e.g. there is no Spark integration. We are working on it, but you should still get a good overview.)_
 
 
 ## Credits & Contributions
