@@ -25,7 +25,7 @@ The training material in this repository is licensed under a Creative Commons BY
 
 ## Contributing
 
-* Contributions welcome! Have a look at [CONTRIBUTING.md](CONTRIBUTING.md)
+Contributions welcome! Have a look at [CONTRIBUTING.md](CONTRIBUTING.md)
 
 
 ## Development
@@ -57,3 +57,7 @@ poetry run jupyter notebook
 As there might occur some problems using the preferred setup on M1 hardware, you could also use [`conda`](https://github.com/conda-forge/miniforge).
 
 As the leading system is poetry, please update the requirements file according to the dependencies in the `pyproject.toml`.
+
+## Work with us
+
+If you or your team wants to get an introduction into data science and machine learning or a deep dive into a special topic, we are there to support you! Just contact us by [email](mailto:trainings@point-8.de) and we will work out a fitting proposal.
