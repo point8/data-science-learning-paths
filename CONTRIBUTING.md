@@ -9,9 +9,9 @@
 
 Individual authors will follow in alphabetical order:
 
-* Christian Staudt <<cstaudt@point-8.de>>
+* Christian Staudt <<cstaudt@point-8.de>> (main developer)
 * Christophe Cauet <<ccauet@point-8.de>>
-* Julian von der Ecken <<jvonderecken@point-8.de>>
+* Julian von der Ecken <<jvonderecken@point-8.de>> (main developer)
 * Philipp Grund <<pgrund@point-8.de>>
 * Tobias Brambach <<tbrambach@point-8.de>>
 * Vanessa Müller <<vmueller@point-8.de>>
