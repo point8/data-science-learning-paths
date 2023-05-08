@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Data Science Learning Paths</h1>
 
-  <p><b>Basic and advanced data science courses</b></p>
+  <p><b>Practical data science courses - from basic to intermediate</b></p>
  <a href="https://github.com/point8/data-science-learning-paths/blob/main/notebooks/data-science-learning-paths.ipynb"><b>Table of Contents</b></a>
 </div>
 
