@@ -60,6 +60,6 @@ If you or your team wants to get an introduction into data science and machine l
 
 ## License
 
-Copyright © 2018-2022 [Point 8 GmbH](https://point-8.de)
+Copyright © 2018-2023 [Point 8 GmbH](https://point-8.de)
 
 The training material in this repository is licensed under a Creative Commons BY-NC-SA 4.0 license. See [LICENSE](LICENSE) file for more information.
