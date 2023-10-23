@@ -1,15 +1,17 @@
 # This code is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 # Copyright © [Point 8 GmbH](https://point-8.de)
-import pathlib
-import streamlit as st
-import io
-from PIL import Image
 import base64
+import io
+import pathlib
+
+import streamlit as st
+from PIL import Image
 
 st.set_page_config(
     page_title="Overview",
     # page_icon="",
 )
+
 
 def add_logo():
     file = open(pathlib.Path(__file__).parent / "static/logo.png", "rb")
@@ -19,7 +21,7 @@ def add_logo():
     file.close()
     img_data = base64.b64decode(img_str)
     img = Image.open(io.BytesIO(img_data))
-    resized_img = img.resize((160, 84))  # x, y #470,248 
+    resized_img = img.resize((160, 84))  # x, y #470,248
     resized_img.save(buffer, format="PNG")
     img_b64 = base64.b64encode(buffer.getvalue()).decode("utf-8")
 
@@ -41,5 +43,5 @@ def add_logo():
 add_logo()
 
 st.title("Regelzonen")
-image = Image.open(pathlib.Path(__file__).parent /  "static/regelzonen.png")
+image = Image.open(pathlib.Path(__file__).parent / "static/regelzonen.png")
 st.image(image)
