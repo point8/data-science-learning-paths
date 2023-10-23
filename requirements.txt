@@ -3,7 +3,6 @@ altair==5.1.2 ; python_version >= "3.9" and python_full_version != "3.9.7" and p
 astunparse==1.6.3 ; python_version >= "3.9" and python_full_version != "3.9.7" and python_version < "3.11"
 attrs==23.1.0 ; python_version >= "3.9" and python_full_version != "3.9.7" and python_version < "3.11"
 beautifulsoup4==4.12.2 ; python_version >= "3.9" and python_full_version != "3.9.7" and python_version < "3.11"
-blinker==1.6.3 ; python_version >= "3.9" and python_full_version != "3.9.7" and python_version < "3.11"
 bs4==0.0.1 ; python_version >= "3.9" and python_full_version != "3.9.7" and python_version < "3.11"
 cachetools==5.3.1 ; python_version >= "3.9" and python_full_version != "3.9.7" and python_version < "3.11"
 certifi==2023.7.22 ; python_version >= "3.9" and python_full_version != "3.9.7" and python_version < "3.11"
