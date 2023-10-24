@@ -42,6 +42,7 @@ numpy = "^1.26.1"
 scipy = "^1.11.3"
 streamlit = "^1.27.2"
 watchdog = "^3.0.0"
+matplotlib-inline = "^0.1.6"
 
 [tool.poetry.dev-dependencies]
 

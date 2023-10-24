@@ -3,6 +3,7 @@ findspark
 holidays
 lunarcalendar
 matplotlib
+matplotlib-inline
 nltk
 opencv-python
 openpyxl
