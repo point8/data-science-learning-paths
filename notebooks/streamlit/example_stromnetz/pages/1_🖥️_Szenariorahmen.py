@@ -1,3 +1,6 @@
+# This code is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+# Copyright © [Point 8 GmbH](https://point-8.de)
+import pathlib
 from turtle import color
 import streamlit as st
 import pandas as pd
@@ -15,8 +18,13 @@ tab_a4, tab_a11, tab_a14, = st.tabs(["Abbildung 4", "Abbildung 11", "Abbildung 1
 
 with tab_a4:
     st.markdown("### Übersicht über die Verteilung der installierten Leistungen je Energieträger")
-
-    df_c2_a4 = pd.read_excel("../data/Kapitel_2_Daten_NEP_2037_V2023_2_Entwurf.xlsx", sheet_name="Abbildung 4", header=2,index_col=0).dropna()
+    df_c2_a4 = pd.read_excel(
+        pathlib.Path(__file__).parent.parent.parent
+        / "data/Kapitel_2_Daten_NEP_2037_V2023_2_Entwurf.xlsx",
+        sheet_name="Abbildung 4",
+        header=2,
+        index_col=0,
+    ).dropna()
     st.dataframe(df_c2_a4)
 
 
@@ -45,14 +53,19 @@ with tab_a4:
 
 with tab_a11:
     st.markdown("### Mittlerer, minimaler und maximaler Flexibilitätseinsatz je Tagesstunde in Szenario B 2037")
-    df_c2_a11 = pd.read_excel("../data/Kapitel_2_Daten_NEP_2037_V2023_2_Entwurf.xlsx", sheet_name="Abbildung 11", skiprows=4,index_col=0)
+    df_c2_a11 = pd.read_excel(
+        pathlib.Path(__file__).parent.parent.parent
+        / "data/Kapitel_2_Daten_NEP_2037_V2023_2_Entwurf.xlsx",
+        sheet_name="Abbildung 11",
+        skiprows=4,
+        index_col=0,
+    )
     col_names = ["Einheit", 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
     df_c2_a11.columns = col_names
 
     st.dataframe(df_c2_a11)
 
     df_c2_a11_plot = df_c2_a11.drop("Einheit", axis=1).transpose()
-    #st.dataframe(df_c2_a11_plot)
    
     figX, ax = plt.subplots()
     ax.plot(df_c2_a11_plot.index, df_c2_a11_plot['Flexibilitätseinsatz - Median'], ".", label="median")
@@ -77,7 +90,13 @@ with tab_a11:
 with tab_a14:
     st.markdown("### Installierte Leistungen je Bundesland im Szenario A 2037")
 
-    df_c2_a14 = pd.read_excel("../data/Kapitel_2_Daten_NEP_2037_V2023_2_Entwurf.xlsx", sheet_name="Abbildung 14", skiprows=2,index_col=0).dropna()
+    df_c2_a14 = pd.read_excel(
+        pathlib.Path(__file__).parent.parent.parent
+        / "data/Kapitel_2_Daten_NEP_2037_V2023_2_Entwurf.xlsx",
+        sheet_name="Abbildung 14",
+        skiprows=2,
+        index_col=0,
+    ).dropna()
     st.dataframe(df_c2_a14)
 
     df_c2_a14_w = df_c2_a14.copy().drop(['Band der Nachfrage***', 'Unnamed: 11', 'PtH','PtG ****', 'DSM'], axis=1).drop(["Summe**"]) 
