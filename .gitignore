@@ -9,3 +9,4 @@ notebooks/dl/Graph
 notebooks/spark/scripts/
 notebooks/exercises/scripts/
 TensorBoard/
+.vscode/
