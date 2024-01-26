@@ -13,4 +13,4 @@ TensorBoard/
 
 # Julia
 Manifest.toml
-Project.toml
+/Project.toml
