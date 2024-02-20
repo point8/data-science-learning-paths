@@ -10,3 +10,7 @@ notebooks/spark/scripts/
 notebooks/exercises/scripts/
 TensorBoard/
 .vscode/
+
+# Julia
+Manifest.toml
+/Project.toml
