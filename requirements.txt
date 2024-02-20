@@ -28,5 +28,4 @@ tweepy
 networkx
 sktime
 tensorflow
-julia
 ./library/
