@@ -183,6 +183,6 @@ def read_house_prices_seattle(
     data_path="../.assets/data/houses_seattle/kc_house_data.csv",
     descr_path="../.assets/data/houses_seattle/description.csv",
 ):
-    data = pandas.read_csv(data_path, sep=",", parse_dates=["date"])
-    data_descr = pandas.read_csv(descr_path, sep=", ")
+    data = pandas.read_csv(data_path, sep=",", parse_dates=["date"], engine='python')
+    data_descr = pandas.read_csv(descr_path, sep=", ", engine='python')
     return data, data_descr
