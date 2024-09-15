@@ -1,0 +1,13 @@
+services:
+    mongodb:
+        container_name: jhub-mongodb
+        image: mongo:latest
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME=mongo
+            - MONGO_INITDB_ROOT_PASSWORD=hu43fh
+        volumes:
+            - mongodb-data:/data/db
+        ports:
+            - "27017:27017"
+volumes:
+    mongodb-data:
