@@ -10,6 +10,8 @@ notebooks/spark/scripts/
 notebooks/exercises/scripts/
 TensorBoard/
 .vscode/
+# ignore lightning_logs folder in whatever directory
+lightning_logs/
 
 # Julia
 Manifest.toml
