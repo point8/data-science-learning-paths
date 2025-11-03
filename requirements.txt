@@ -28,4 +28,6 @@ tweepy
 networkx
 sktime
 tensorflow
+scikeras
+prophet
 ./library/
