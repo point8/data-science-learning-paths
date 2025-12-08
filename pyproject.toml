@@ -11,7 +11,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.11"
+python = ">=3.9,<3.14"
 bs4 = "^0.0.1"
 findspark = "^2.0.1"
 holidays = "^0.16"
@@ -42,6 +42,8 @@ tweepy = "^4.12.1"
 networkx = "^2.8.8"
 sktime = "^0.14.0"
 tensorflow = ">2"
+scikeras = "^0.13.0"
+prophet = "^1.1"
 
 [tool.poetry.dev-dependencies]
 
