@@ -1,0 +1,13 @@
+[project]
+name = "data-science-learning-paths-library"
+version = "0.2.0"
+description = "Helper library for Data Science Learning Paths"
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["data_science_learning_paths"]

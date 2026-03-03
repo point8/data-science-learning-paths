@@ -26,33 +26,33 @@ Contributions welcome! Have a look at [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Development
 
-We use [`pyenv`](https://github.com/pyenv/pyenv) and [`poetry`](https://github.com/python-poetry/poetry) to setup the python development environment.
+We use [`uv`](https://docs.astral.sh/uv/) to manage the Python environment and dependencies.
 
-After installing those two, run the following lines to be ready to develop:
+After [installing uv](https://docs.astral.sh/uv/getting-started/installation/), run the following to set up the project:
 
 ```
-pyenv install -s "$(cat .python-version)"
-poetry env use "$(cat .python-version)"
-poetry install
+uv sync
+```
+
+This will automatically install the required Python version and all dependencies.
+
+To make the environment available as a Jupyter kernel, run:
+
+```
+uv run python -m ipykernel install --user --name data-science-learning-paths --display-name "Data Science Learning Paths"
 ```
 
 Now you can start your `jupyter-lab` UI with
 
 ```
-poetry run jupyter-lab
+uv run jupyter lab
 ```
 
 or a classic `notebook` view with
 
 ```
-poetry run jupyter notebook
+uv run jupyter notebook
 ```
-
-### Working with on Apple Silicon M1 hardware
-
-As there might occur some problems using the preferred setup on M1 hardware, you could also use [`conda`](https://github.com/conda-forge/miniforge).
-
-As the leading system is poetry, please update the requirements file according to the dependencies in the `pyproject.toml`.
 
 ## Work with us
 
